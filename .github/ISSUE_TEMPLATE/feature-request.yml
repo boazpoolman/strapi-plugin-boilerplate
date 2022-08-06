@@ -26,7 +26,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: suggested_solutions
+    id: related_issues
     attributes:
       label: Related issue(s)/PR(s)
       description: "Let us know if this is related to any issue/pull request."
