@@ -1,0 +1,32 @@
+
+name: "🚀 Feature Request"
+description: Suggest an idea to help make this plugin even better!
+title: "[FEATURE_REQUEST] <title>"
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: "Quick summary what's this feature request about."
+    validations:
+      required: true
+  - type: textarea
+    id: why_is_it_needed
+    attributes:
+      label: Why is it needed
+      description: "A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]"
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_solutions
+    attributes:
+      label: Suggested solutions
+      description: "A clear and concise description of what you want to happen."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_solutions
+    attributes:
+      label: Related issue(s)/PR(s)
+      description: "Let us know if this is related to any issue/pull request."
