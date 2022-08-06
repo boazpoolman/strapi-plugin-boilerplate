@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": ["@strapi-community"],
+  "parser": "babel-eslint",
+  "plugins": ["babel"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true,
+    "node": true
+  },
+  "globals": {
+    "strapi": true
+  }
+}

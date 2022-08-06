@@ -1,0 +1,64 @@
+{
+  "name": "strapi-plugin-plugin-id",
+  "version": "1.0.0",
+  "description": "plugin-description",
+  "strapi": {
+    "displayName": "plugin-name",
+    "name": "plugin-id",
+    "description": "plugin-description",
+    "required": false,
+    "kind": "plugin"
+  },
+  "scripts": {
+    "eslint": "eslint --max-warnings=0 './**/*.{js,jsx,ts,tsx}'",
+    "eslint:fix": "eslint --fix './**/*.{js,jsx,ts,tsx}'",
+    "plugin:install": "yarn install && rm -rf node_modules/@strapi/helper-plugin",
+    "playground:install": "cd playground && yarn install",
+    "playground:build": "cd playground && yarn build",
+    "playground:develop": "cd playground && yarn develop"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "author-name",
+    "email": "author-email",
+    "url": "author-link"
+  },
+  "maintainers": [
+    {
+      "name": "author-name",
+      "email": "author-email",
+      "url": "author-link"
+    }
+  ],
+  "files": [
+    "admin",
+    "server",
+    "strapi-admin.js",
+    "strapi-server.js"
+  ],
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
+  "devDependencies": {
+    "@strapi-community/eslint-config": "^0.4.3",
+    "@strapi/design-system": "^1.2.1",
+    "@strapi/helper-plugin": "^4.3.2",
+    "@strapi/icons": "^1.2.1",
+    "@strapi/utils": "^4.3.2",
+    "babel-eslint": "9.0.0",
+    "eslint": "^8.21.0",
+    "lodash": "^4.17.11",
+    "react": "^17.0.2",
+    "react-intl": "^5.20.12",
+    "styled-components": "^5.2.3"
+  },
+  "bugs": {
+    "url": "github-link/issues"
+  },
+  "homepage": "github-link#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
